@@ -1,0 +1,11 @@
+.material_header {
+    height: 90%;
+    background-image: url("../../assets/materialImage.png");
+    background-size: 100% 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.material_header p{
+    width: 60%;
+    font-size: 17px;
+}

@@ -1,0 +1,11 @@
+.header1 {
+    height: 90%;
+    background-image: url("../../assets/serviceBackground.png");
+    background-size: 100% 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header_content p{
+    width: 60%;
+    font-size: 17px;
+}

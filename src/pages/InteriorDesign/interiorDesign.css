@@ -1,0 +1,11 @@
+.interior_header {
+    height: 90%;
+    background-image: url("../../assets/InteriorDesigning.png");
+    background-size: 100% 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.interior_header p{
+    width: 60%;
+    font-size: 17px;
+}
