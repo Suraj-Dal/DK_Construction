@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/header/header';
 import Home from './pages/home/home';
 import Service from './pages/services/service'
 import InteriorDesign from './pages/InteriorDesign/interiorDesign';
@@ -11,11 +9,12 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Material/>}>
-
-        </Route>
-      </Routes>
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/material' element={<Material/>}></Route>
+          <Route path='/interior' element={<InteriorDesign />}></Route>
+          <Route path='/construction' element={<Service />}></Route>
+        </Routes>
       </BrowserRouter>
     </div>
   );

@@ -6,7 +6,7 @@ function Header() {
     return (
                 <div className='navigation_bar'>
                     <div className='logo'>
-                        <img src={logo} alt="" style={{ width: '81px', height: '90px' }}/>
+                        <img src={logo} alt="" style={{ width: '51px', height: '60px' }}/>
                         <span>CONSTRUCTION <br /> AND INTERIOR</span>
                     </div>
                     <div className='list'>

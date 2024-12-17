@@ -14,7 +14,6 @@ const Home = () => {
             <header className='header'>
                 <Header></Header>
                 <div className='header_content'>
-                    <video src=""></video>
                     <h1>Lets Make <br /> your Interior <br /> Better</h1>
                     <p>"Expertly crafted interior design solutions that reflect your <br /> unique style, transforming spaces into personalized havens of <br /> beauty and functionality."</p>
                     <button>Know More</button>
@@ -31,12 +30,10 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='picture2'>
-                            <div className='box1'>
-                            </div>
                             <div className='box2'>
-                                <img src={image2} alt="" style={{ width: '380px', height: '240px' }} />
-                            </div>
-                            <div className='box3'>
+                                <img src={image2} alt="" style={{ width: '380px', height: '240px', position: 'relative', zIndex: '5' }} />
+                                <div className='box1' />
+                                <div className='box3' />
                             </div>
                         </div>
                     </div>
@@ -85,12 +82,10 @@ const Home = () => {
                 </section>
                 <section className='aboutUs'>
                     <div className='aboutUs_images'>
-                        <div className='box1'>
-                        </div>
                         <div className='box2'>
-                            <img src={dkImage} alt="" style={{ width: '280px', height: '360px' }} />
-                        </div>
-                        <div className='box3'>
+                            <img src={dkImage} alt="" style={{ width: '280px', height: '360px', position: 'relative', zIndex: '5' }} />
+                            <div className='box3' />
+                            <div className='box1' />
                         </div>
                     </div>
                     <div className='aboutUs_information'>
