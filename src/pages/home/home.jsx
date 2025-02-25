@@ -7,6 +7,7 @@ import houseimage2 from '../../assets/ourServiceImage2.png';
 import houseimage3 from '../../assets/ourServiceImage3.png';
 import dkImage from '../../assets/dkImage.png';
 import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
 
 const Home = () => {
     return (
@@ -108,7 +109,7 @@ const Home = () => {
                 </section>
             </main>
             <footer>
-
+                <Footer />
             </footer>
         </div>
     )

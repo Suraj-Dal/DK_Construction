@@ -7,6 +7,7 @@ body {
   font-variation-settings:
     "wdth" 100,
     "YTLC" 500;
+  overflow-x: hidden;
 }
 
 code {

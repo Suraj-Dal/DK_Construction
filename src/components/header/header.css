@@ -25,3 +25,35 @@
     list-style-type: none;
     cursor: pointer;
 }
+
+.popup {
+    position: absolute;
+    top: 25px;
+    left: -30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+    border-radius: 5px;
+  }
+  
+  .popup ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 17px;
+  }
+  
+  .popup li {
+    padding: 5px 10px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .popup li:hover {
+    background-color: #f0f0f0;
+  }
